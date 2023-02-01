@@ -1,0 +1,14 @@
+/* Modal style */
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(32, 28, 28);
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+  
+}
+.modal__list{
+  list-style-type: none;
+}

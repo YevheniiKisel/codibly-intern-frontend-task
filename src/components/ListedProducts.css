@@ -1,0 +1,21 @@
+.product-table {
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.product-table__titles th {
+  padding-bottom: 1rem;
+}
+.product-table__data td {
+  padding: 0.5rem 1rem;
+  border-bottom: 0.5rem solid #242424;
+}
+
+.product-table__data tr {
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.product-table__data tr:hover {
+  scale: 145%;
+}

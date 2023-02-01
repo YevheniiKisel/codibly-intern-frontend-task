@@ -1,0 +1,24 @@
+/* ADJUST, GAP*/
+.header {
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.form{
+  display: grid;
+  grid-template-columns:auto auto ;
+  grid-template-rows: auto auto;
+  row-gap: 1rem;
+  padding: 2rem 4rem;
+  border: 0.25px solid whitesmoke;
+}
+
+.form__button{
+  grid-column: span 2;
+}
+
+/* MODIFIERS */
+.form__input--error{
+  background-color: crimson;
+}
+

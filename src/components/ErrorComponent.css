@@ -1,0 +1,15 @@
+/* Error style */
+.error{
+  display: flex;
+  flex-direction: column;
+}
+.error__message{
+  color: crimson;
+  margin-bottom: 3rem;
+}
+.error__emoji{
+  font-size: 3rem;
+  height: min-content;
+  margin-bottom: 3rem;
+}
+
